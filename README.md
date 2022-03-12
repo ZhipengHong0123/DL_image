@@ -3,8 +3,9 @@ In this repository, I will implement the different convolutional neural networks
 This repository will follow Prof Mu's [Introduce to Deep Learning](https://courses.d2l.ai/).
    
 # LeNet
-LeNet is a simple convolutional neural network. It used 2 convolutional layers, 2 pooling layers and 3 linear layer to deal with classification problem. This model works well on the MNIST dataset.
-![LeNet Structure](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_structure.png "LeNet Structure")
+LeNet is a simple convolutional neural network. It used 2 convolutional layers, 2 pooling layers and 3 linear layer to deal with classification problem. This model works well on the MNIST dataset.  
+![LeNet Structure](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_structure.png "LeNet Structure")  
+  
 The Structure of LeNet:
 - Input: (1 ,28 ,28) 
 - Convolutional layer
