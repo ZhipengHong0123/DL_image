@@ -21,7 +21,7 @@ The Structure of LeNet:
 - Linear layer(84, 10)
 
 ### Reproducing
-Using the same dataset and reproducing a similar model, it's easy to get a good result without spending lots of time in hyperparameter tuning. In the [notebook](https://github.com/ZhipengHong0123/DL_image/blob/main/LeNet/LeNet.ipynb), I used MNIST dataset and FashionMNIST dataset. The LeNet predict well on both image classification task. The training loss and test loss decrease fast when using SGD optimizer. Without training lots of epochs. The model gets high accuracy in the test set.  
+Using the same dataset and reproducing a similar model, it's easy to get a good result without spending lots of time in hyperparameter tuning. In the [notebook](https://github.com/ZhipengHong0123/DL_image/blob/main/LeNet/LeNet.ipynb), I train the model with two different dataset: MNIST abd FashionMNIST. The LeNet predict well on both image classification task. The training loss and test loss decrease fast when using SGD optimizer. Without training lots of epochs. The model gets high accuracy in the test set.  
   
 These are pictures of LeNet prediction by different datasets.
   
