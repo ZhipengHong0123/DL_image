@@ -22,7 +22,9 @@ The Structure of LeNet:
 
 ### Reproducing
 By using the same dataset and reproducing a similar model, it's easy to get a good result without spending lots of time in hyperparameter tuning. In the [notebook](LeNet\LeNet.ipynb), i used MNIST dataset and FashionMNIST dataset. The LeNet predict well on both image classification task. The training loss and test loss decrease fast when using SGD optimizer. Without training lots of epochs. The model gets high accuracy in the test set.  
-This are pictures of LeNet prediction by different datasets.
+  
+These are pictures of LeNet prediction by different datasets.
+  
 ![LeNet MNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_MNIST.png)
 ![LeNet FasionMNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_FasionMNIST.png)
 
