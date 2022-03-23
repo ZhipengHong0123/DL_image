@@ -29,3 +29,6 @@ These are pictures of LeNet prediction by different datasets.
 ![LeNet FasionMNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/pictures/LeNet_FasionMNIST.png)
 
 
+# AlexNet
+# VGG
+# ResNet
