@@ -4,7 +4,7 @@ This repository will follow Prof Mu's [Introduce to Deep Learning](https://cours
    
 # LeNet
 LeNet is a simple convolutional neural network. It used 2 convolutional layers, 2 pooling layers and 3 linear layer to deal with classification problem. This model works well on the MNIST dataset.  
-![LeNet Structure](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_structure.png "LeNet Structure")  
+![LeNet Structure](https://github.com/ZhipengHong0123/DL_image/blob/main/pictures/LeNet_structure.png "LeNet Structure")  
   
 The Structure of LeNet:
 - Input: (1 ,28 ,28) 
@@ -25,7 +25,7 @@ Using the same dataset and reproducing a similar model, it's easy to get a good 
   
 These are pictures of LeNet prediction by different datasets.
   
-![LeNet MNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_MNIST.png)
-![LeNet FasionMNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/picture/LeNet_FasionMNIST.png)
+![LeNet MNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/pictures/LeNet_MNIST.png)
+![LeNet FasionMNIST](https://github.com/ZhipengHong0123/DL_image/blob/main/pictures/LeNet_FasionMNIST.png)
 
 
