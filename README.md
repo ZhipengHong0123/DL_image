@@ -24,9 +24,9 @@ Using the same dataset and reproducing a similar model, it's easy to get a good 
   
 These are pictures of LeNet prediction by different datasets.
   
-<img src="pictures/LeNet_MNIST.png" width="500" >
+<img src="pictures/LeNet_MNIST.png" width="650" >
 
-<img src="pictures/LeNet_FasionMNIST.png" width="500" >
+<img src="pictures/LeNet_FasionMNIST.png" width="650" >
 
 
 # AlexNet
@@ -48,8 +48,8 @@ nn.Dropout(0.5),
 nn.Linear(4096,10)
 ```
 These are result of AlexNet
-<img src="pictures/AlexNet_Train.png" width="500" >
-<img src="pictures/AlexNet_Test.png" width="500" >
+<img src="pictures/AlexNet_Train.png" width="650" >
+<img src="pictures/AlexNet_Test.png" width="650" >
 
 
 # VGG
@@ -69,9 +69,9 @@ def block_(self,nums,in_channel,out_channel):
 ```
 Then we can construct our model using block. We can build VGG-11 or VGG-16. And in my jupyter notebook, I will build two models but owing to limited resources I will only try VGG-11 on CIFAR10. These are the result of VGG. In the training set, we can train the model very well with extremely high accuracy but this will lead to overfitting so I used weight decay and dropout to prevent overfitting.
 
-<img src="pictures/VGG_CIFAR_Train.png" width="500" >
+<img src="pictures/VGG_CIFAR_Train.png" width="650" >
 
-<img src="pictures/VGG_CIFAR_Test.png" width="500" >
+<img src="pictures/VGG_CIFAR_Test.png" width="650" >
 
 # ResNet
 ResNet is similar to VGG and uses block but it adds X from the previous block. We can also choose whether use one convolutional layer to process X. Furthermore, instead of using max-pooling, ResNet uses the Batch Norm layer.
@@ -101,6 +101,6 @@ class ResNetblock(nn.Module):
 Using block we can build our model and train on the dataset. ResNet perform best with accuracy **0.85** on the test dataset compared with other models.
 
 
-<img src="pictures/ResNet_CIFAR10_Train.png" width="500" >
+<img src="pictures/ResNet_CIFAR10_Train.png" width="650" >
 
-<img src="pictures/ResNet_CIFAR10_Test.png" width="500" >
+<img src="pictures/ResNet_CIFAR10_Test.png" width="650" >
